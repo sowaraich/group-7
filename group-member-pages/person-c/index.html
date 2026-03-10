@@ -4,29 +4,155 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <title>J220 Group Project</title>
+    <style>
+      .film-image {
+        /* width: min(100%, 700px); */
+        height: auto;
+        display: block;
+        margin: 1rem auto 0;
+        text-align: center;
+      }
+
+      .name-box {
+        background-color: #ffd83a;
+      }
+
+      .slanted {
+        font-style: italic;
+      }
+
+      .content-box {
+        background: #ffffff;
+        border: 1px solid rgba(0, 0, 0, 0.12);
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+        border-radius: 0.85rem;
+        padding: 1.25rem 1.25rem;
+      }
+
+
+        body {
+          width: 100%;
+          min-height: 100vh;
+          --s: 600px;
+          --c1: #ffc4ac;
+          --c2: #798fa2;
+
+          --_g: var(--c2) 4% 14%, var(--c1) 14% 24%, var(--c2) 22% 34%,
+            var(--c1) 34% 44%, var(--c2) 44% 56%, var(--c1) 56% 66%, var(--c2) 66% 76%,
+            var(--c1) 76% 86%, var(--c2) 86% 96%;
+          background: radial-gradient(
+              100% 100% at 100% 0,
+              var(--c1) 4%,
+              var(--_g),
+              #0008 96%,
+              #0000
+            ),
+            radial-gradient(
+                100% 100% at 0 100%,
+                #0000,
+                #0008 4%,
+                var(--_g),
+                var(--c1) 96%
+              )
+              var(--c1);
+          background-size: var(--s) var(--s);
+        }
+
+        
+
+
+    </style>
+    <title>Michael Han - Bio</title>
   </head>
+
+
+
   <body>
 
 
     <header class="container">
-      <div class="p-5 my-4 rounded-3 bg-body-secondary">
-        <div class="container-fluid py-5">
-          <h1 class="display-5 fw-bold">Your Name Here</h1>
-          <p class="fs-4">A short tagline about yourself.</p>
+      <div class="my-4">
+          <div class="row justify-content-center">
+            <div class="content-box col-11 col-sm-10">
+            <h1 class="display-1 fw-bold">Michael Han</h1>
+            <p class="fs-4">Reporter, Multimedia, and Visual Storyteller</p>
+          </div>
         </div>
-      </div>
     </header>
 
 
-    <section class="container col-12 col-lg-6">
+    <section class="container">
+      <div class="row justify-content-center">
+        <div class="col-11 mb-5 content-box col-sm-10">
+      <h3 class="fw-bold">Experiences </h3>
+      <p>As a Videographer and Editor at UC Berkeley's Coleman Fung Institute for Engineering Leadership, I contribute to producing compelling visual narratives. My role involves creating impactful video content, leveraging skills in video production and teamwork to deliver engaging projects.  
+        Currently pursuing a Master of Journalism at UC Berkeley with a focus on business reporting and data analysis, I bring an academic foundation in Film and Media Studies and Journalism. My dedication to storytelling through visual media reflects my passion for creating immersive and honest narratives. I aim to combine my academic pursuits with professional experience to excel in the field of visual journalism..</p>
 
-      <h3 class="fw-bold">Change this headline </h3>
-      <p>The following post can be a reflection of your professional work, a hobby or interest, or another similar post. Journalism students can use this post to show case a few projects.</p>
-      <p>If you with to embed an image, include it in this folder, and link to it using the img tag.</p>
 
+      <div id="portfolio" class="carousel slide mb-2">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/0001.png" class="d-block w-100" alt="Echoes Across Oceans #1">
+          </div>
+          <div class="carousel-item">
+            <img src="images/0002.png" class="d-block w-100" alt="Echoes Across Oceans #2">
+          </div>
+          <div class="carousel-item">
+            <img src="images/0003.png" class="d-block w-100" alt="Echoes Across Oceans #3">
+          </div>
+          <div class="carousel-item">
+            <img src="images/0004.png" class="d-block w-100" alt="Echoes Across Oceans #4">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#portfolio" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#portfolio" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <h3 class="fw-bold">Positions</h3>
+      <span class="slanted">
+      <p class="fs-3">Video Producer</p></span> 
+      <p>UC Berkeley Coleman Fung Institute for Engineering Leadership </p>
+      <ul>Edited promotional materials in Adobe Premiere Pro, DaVinci Resolve, and Final Cut Pro.</ul>
+      <ul>Planned and executed short-form creator-style marketing campaigns across owned social channels (Instagram
+Reels/Shorts), driving 1,000+ applications.</ul>
+      <ul>Maintained campaign trackers, timelines, and shared documentation to manage deliverables and iteration cycles in
+ClickUp and Monday.com</ul>
+      <ul>Pulled basic performance metrics (reach, views, retention/engagement) and wrote quick reporting recaps to inform
+next creative tests.</ul>
+      <ul>Supported production workflows end-to-end: asset organization, edit tracking, and final delivery for short-form
+content.</ul>
+      <span class="slanted">
+
+
+      <p class="fs-3">Reporter</p></span>
+      <P>SF Business Times</P>
+      <ul>Reported on the EV market in California, and how tariffs are not making EV adoption easier for the public</ul>
+      <ul>Managed end-to-end reporting workflow: outreach, interviews, editing, and final delivery</ul>
+      <ul>The piece broke news on the first day of 2026 as the top headline. Cover story in Feb print</ul>
+      <span class="slanted">
+
+
+      <p class="fs-3">Communication Associate</p></span>
+      <p>Community R&D</p>
+      <ul>Conducted trend and competitive research on short-form formats and audio insights into creative test ideas.</ul>
+      <ul>Coordinated a one-day multi-location shoot; managed asset organization, edit rounds, and deliverables through
+final export.</ul>
+      <ul>Delivered polished videos for social media, recruitment, and organizational storytelling,
+ensuring brand consistency and narrative clarity.</ul>
+
+      <button class="btn btn-warning">CONTACT ME - mlhan2002@berkeley.edu</button> 
+      
+      
+    </div>
+    </div>
     </section>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
